@@ -46,6 +46,12 @@ Run it through the tool and compare:
 
 See `examples/expected-findings.txt` for what should be detected.
 
+## What this is (and is not)
+
+This is not an HTML validator and not a DOM visualizer.
+
+It is a differential lens for observing how the HTML parsing algorithm rewrites source markup into the DOM that browsers actually use.
+
 ## Run it
 
 ```bash
