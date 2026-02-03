@@ -30,6 +30,7 @@ This tool makes the loss visible.
 
 ![DOM vs RAW diff](examples/output.png)
 
+
 ## Example
 
 See `examples/malformed.html`
