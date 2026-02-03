@@ -26,6 +26,10 @@ Mediation → Reports where they disagree
 The DOM is a lossy transformation of the original HTML.  
 This tool makes the loss visible.
 
+### Sample Output
+
+![DOM vs RAW diff](examples/output.png)
+
 ## Example
 
 See `examples/malformed.html`
