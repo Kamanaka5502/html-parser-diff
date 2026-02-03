@@ -1,0 +1,9 @@
+Expected divergences between raw HTML and DOM:
+
+1. Parser inserts: <html>, <head>, <body>, <tbody>
+2. Missing </td> and </tr> are auto-closed
+3. <p> and <div> are reparented and closed
+4. <span> is auto-closed
+5. Text inside <script> that looks like HTML is NOT parsed as DOM nodes
+6. DOM tree contains nodes never present in raw source
+7. Several raw structural signals map to fewer DOM nodes
