@@ -1,5 +1,7 @@
 # html-parser-diff
 
+A small forensic tool for observing how the HTML parsing algorithm rewrites source markup into DOM structure.
+
 > A differential analyzer that exposes where HTML source and the browser DOM disagree.
 
 “You can’t regex HTML” is a famous rule of thumb.
