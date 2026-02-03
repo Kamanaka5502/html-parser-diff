@@ -25,3 +25,17 @@ Mediation → Reports where they disagree
 
 The DOM is a lossy transformation of the original HTML.  
 This tool makes the loss visible.
+
+## Example
+
+See `examples/malformed.html`
+
+This file is intentionally broken.  
+Run it through the tool and compare:
+
+- What exists in the raw source
+- What exists in the DOM
+- What the parser silently repaired or discarded
+
+See `examples/expected-findings.txt` for what should be detected.
+
