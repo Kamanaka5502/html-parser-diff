@@ -46,3 +46,9 @@ Run it through the tool and compare:
 
 See `examples/expected-findings.txt` for what should be detected.
 
+## Run it
+
+```bash
+python dom_diff.py examples/malformed.html
+
+
